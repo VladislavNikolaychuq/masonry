@@ -13,6 +13,7 @@ register_nav_menus(array(
 include ('inc/actions.php');
 include ('inc/cpt.php');
 include ('inc/menu.php');
+include ('inc/customizer.php');
 
 function cc_mime_types($mimes) {
     $mimes['svg'] = 'image/svg+xml';
