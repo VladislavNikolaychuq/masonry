@@ -34,42 +34,28 @@ $tittle=get_field('tittle');
             </section>
             <section class="section-preview">
                 <div class="preview">
-<?php if( have_rows('tasks') ): ?>
-                    <div class="pols">s
+<?php if( have_rows('full_images') ): ?>
+                    <div class="pols">
     <?php
-    $classes=['pol1','pol5','pol4','pol3','pol2','pol8','pol6','pol7','pol9','pol10'];
+    $counter = 0;
+    $classes = ['pol1','pol5','pol4','pol3','pol2','pol8','pol6','pol7','pol9','pol10'];
 
-    while ( have_rows('tasks') ) : the_row();
-        $name_task = get_sub_field('name_task');
-        ?>
-                        <div class="pol pol1"><img src="<?= DIRECT; ?>/img/m4.png?ver1.0" alt=""/></div>
+        while ( have_rows('full_images') ) : the_row();
 
+         $image_for_second_block = get_sub_field('image_for_second_block'); ?>
 
+            <div class="pol <?= $classes[$counter]; ?>"><img src="<?= $image_for_second_block; ?>" alt=""/></div>
 
-
-                        <div class="pol pol5"><img src="<?= DIRECT; ?>/img/m9.png?ver1.0" alt=""/></div>
-                        <div class="pol pol4"><img src="<?= DIRECT; ?>/img/m8.png?ver1.0" alt=""/></div>
-                        <div class="pol pol3"><img src="<?= DIRECT; ?>/img/m7.png?ver1.0" alt=""/></div>
-                        <div class="pol pol2"><img src="<?= DIRECT; ?>/img/m6.png?ver1.0" alt=""/></div>
-                        <div class="pol pol8"><img src="<?= DIRECT; ?>/img/m12.png?ver1.0" alt=""/></div>
-                        <div class="pol pol6"><img src="<?= DIRECT; ?>/img/m10.png?ver1.0" alt=""/></div>
-                        <div class="pol pol7"><img src="<?= DIRECT; ?>/img/m11.png?ver1.0" alt=""/></div>
-                        <div class="pol pol9"><img src="<?= DIRECT; ?>/img/m13.png?ver1.0" alt=""/></div>
-                        <div class="pol pol10"><img src="<?= DIRECT; ?>/img/m14.png?ver1.0" alt=""/></div>
+        <?php
+        $counter++;
+        endwhile; ?>
                     </div>
+    <?php endif; ?>
+
                 </div>
             </section>
             <section class="section-apply">
-                <div class="apply">
-                    <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
-                    <div class="form-block">
-                        <div class="form-row"><input type="text" class="t-inp name-inp" placeholder="Введите Ваше имя"/></div>
-                        <div class="form-row"><input type="text" class="t-inp mail-inp" placeholder="Введите Ваш e-mail"/></div>
-                        <div class="form-row"><input type="text" class="t-inp tel-inp" placeholder="Введите Ваш номер телефона"/></div>
-                        <div class="form-row"><textarea placeholder="Введите Ваше сообщение"></textarea></div>
-                        <div class="form-row"><button class="btn btn-bord">ОТПРАВИТЬ</button></div>
-                    </div>
-                </div>
+                <?= do_shortcode( '[contact-form-7 id="150" title="Request"]' )?>
             </section>
 
         </main>

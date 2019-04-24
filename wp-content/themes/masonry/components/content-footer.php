@@ -18,14 +18,27 @@
     <div class="foot-bot">
         <div class="foot-logo"><a href="#"><img src="<?= DIRECT; ?>img/logo.png?ver1.0" alt=""/></a></div>
         <div class="foot-nav">
-            <ul>
-                <li><a href="#">о компании</a></li>
-                <li><a href="#">УСЛУГИ</a></li>
-                <li><a href="#">ПРОЦЕСС РАБОТЫ</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
+            <?php
+            $locations= get_nav_menu_locations();
 
+            $menu_items= wp_get_nav_menu_items($locations['menu_footer']);
+            $currentPageID = get_the_ID();
+            ?>
+
+            <?php if(count($menu_items)>0): ?>
+            <ul>
+                <?php  foreach ($menu_items as $menu_item):
+
+                    if($menu_item->object_id == $currentPageID) {
+                        $isCurrentPage = 'id="is-current"';
+                    } else {
+                        $isCurrentPage = '';
+                    }
+                    ?>
+                    <li><a <?= $isCurrentPage;?> href="<?= $menu_item->url;?>"><?= $menu_item->title; ?></a></li>
+                <?php endforeach; ?>
             </ul>
+            <?php endif;?>
         </div>
     </div>
 </footer>

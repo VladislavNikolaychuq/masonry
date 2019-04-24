@@ -11,24 +11,13 @@
 
 <div style="display:none;">
     <div class="pop-up" id="pop-up1">
-        <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
-        <p>Заполните форму ниже, и мы свяжемся с Вами в&nbsp;ближайшее время</p>
-        <div class="p-form">
-            <div class="form-row"><input type="text" class="t-inp name-inp" placeholder="Введите Ваше имя*"/></div>
-            <div class="form-row"><input type="text" class="t-inp mail-inp" placeholder="Введите Ваш e-mail*"/></div>
-            <div class="form-row"><input type="text" class="t-inp tel-inp" placeholder="Введите Ваш номер телефона*"/></div>
-            <input type="submit" class="btn" value="ОТПРАВИТЬ"/>
-        </div>
+        <?= do_shortcode( '[contact-form-7 id="149" title="Call back"]' )?>
+
     </div>
     <div class="pop-up" id="pop-up2">
-        <h2>ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</h2>
-        <p>Для отправки заявки на консультацию <br/>заполните форму ниже</p>
-        <div class="p-form">
-            <div class="form-row"><input type="text" class="t-inp name-inp" placeholder="Введите Ваше имя*"/></div>
-            <div class="form-row"><input type="text" class="t-inp mail-inp" placeholder="Введите Ваш e-mail*"/></div>
-            <div class="form-row"><input type="text" class="t-inp tel-inp" placeholder="Введите Ваш номер телефона*"/></div>
-            <input type="submit" class="btn" value="ОТПРАВИТЬ"/>
-        </div>
+
+            <?= do_shortcode( '[contact-form-7 id="5" title="Consultation"]' )?>
+
     </div>
 </div>
 
