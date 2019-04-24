@@ -37,12 +37,16 @@ $tittle=get_field('tittle');
 <?php if( have_rows('tasks') ): ?>
                     <div class="pols">s
     <?php
-    $classes=[];
+    $classes=['pol1','pol5','pol4','pol3','pol2','pol8','pol6','pol7','pol9','pol10'];
 
     while ( have_rows('tasks') ) : the_row();
         $name_task = get_sub_field('name_task');
         ?>
                         <div class="pol pol1"><img src="<?= DIRECT; ?>/img/m4.png?ver1.0" alt=""/></div>
+
+
+
+
                         <div class="pol pol5"><img src="<?= DIRECT; ?>/img/m9.png?ver1.0" alt=""/></div>
                         <div class="pol pol4"><img src="<?= DIRECT; ?>/img/m8.png?ver1.0" alt=""/></div>
                         <div class="pol pol3"><img src="<?= DIRECT; ?>/img/m7.png?ver1.0" alt=""/></div>
