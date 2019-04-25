@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1889695-6d3d-4911-b427-1f3a3b5c2e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/masonry/inc/customizer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/components/content-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/components/content-header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/inc/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/inc/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/pages/page-home.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="67" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/customizer.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="54" />
+            <state relative-caret-position="472">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -48,8 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="79" />
+            <state relative-caret-position="150">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -57,8 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/pages/page-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-295">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -80,6 +89,7 @@
       <find>logo</find>
       <find>&lt;?=DIRECT?&gt;</find>
       <find>оставить</find>
+      <find>menu_header</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?= DIRECT; ?&gt;/</replace>
@@ -89,7 +99,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="2_stage" />
       </map>
     </option>
   </component>
@@ -103,21 +113,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/cpt.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masonry/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masonry/pages/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/customizer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/menu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/components/content-header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masonry/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masonry/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masonry/inc/customizer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masonry/components/content-header.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="31" />
     <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,32 +166,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="masonry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="masonry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="masonry" type="b2602c69:ProjectViewProjectNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="masonry" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,10 +176,19 @@
               <item name="masonry" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="masonry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masonry" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="masonry" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556093194432</updated>
       <workItem from="1556093198482" duration="16504000" />
+      <workItem from="1556175457617" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1556105174241</created>
@@ -281,17 +274,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556107247339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed 90% job">
+      <created>1556127331612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556127331612</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24539000" />
+    <option name="totallyTimeSpent" value="27331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="23" width="1280" height="728" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.024232633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,9 +321,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="completed 50% job" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/menu.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/js/edit-comments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -396,45 +393,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/pages/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -445,17 +407,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/components/content-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/components/content-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/pages/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/inc/actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masonry/single-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>

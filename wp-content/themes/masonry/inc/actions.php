@@ -16,5 +16,3 @@ function addScripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'addScripts' );
-
-//<?php  echo get_theme_mod( "mytheme_company-name1" );?>
